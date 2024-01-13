@@ -1,7 +1,5 @@
 package com.abhi.spring.basics.movierecommendersystem.lesson3;
 
-import com.abhi.spring.basics.movierecommendersystem.lesson2.Filter;
-
 public class CollaborativeFilter implements Filter {
     @Override
     public String[] getRecommendations(String movie){

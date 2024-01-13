@@ -1,7 +1,9 @@
 package com.abhi.spring.basics.movierecommendersystem.lesson3;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RecommenderImplementation {
     @Autowired
     private Filter filter;
