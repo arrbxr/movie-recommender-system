@@ -1,10 +1,10 @@
-package com.abhi.spring.basics.movierecommendersystem.lesson5;
+package com.abhi.spring.basics.movierecommendersystem.lesson6;
 
-import org.springframework.context.annotation.Primary;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-//@Primary
+@Qualifier("CF")
 public class CollaborativeFilter implements Filter {
     @Override
     public String[] getRecommendations(String movie){
