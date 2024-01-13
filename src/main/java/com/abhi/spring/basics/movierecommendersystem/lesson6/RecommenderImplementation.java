@@ -12,7 +12,7 @@ public class RecommenderImplementation {
 
      // or we can use constructor based qualifier annotation
     // where we remove the autowired annotation from field and put it into constructorr
-//    public RecommenderImplementation(@Qualifier("CF") Filter filter) {
+//    public RecommenderImplementation(@Qualifier("CBF") Filter filter) {
 //        this.filter = filter;
 //    }
 
