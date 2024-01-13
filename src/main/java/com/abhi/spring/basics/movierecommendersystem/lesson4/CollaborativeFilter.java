@@ -1,6 +1,5 @@
-package com.abhi.spring.basics.movierecommendersystem.lesson3;
+package com.abhi.spring.basics.movierecommendersystem.lesson4;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
